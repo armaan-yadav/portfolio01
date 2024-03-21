@@ -1,11 +1,9 @@
 import snapgram from "../images/projects/snapgram.png";
 import yt from "../images/projects/yt.png";
 import zomaggy from "../images/projects/zomaggy.png";
-import { BiSolidMoviePlay } from "react-icons/bi";
 import { AiFillYoutube } from "react-icons/ai";
 import { IoFastFoodSharp } from "react-icons/io5";
 import { FaOpencart } from "react-icons/fa";
-
 export const stacks = ["React", "Tailwind CSS", "Redux Toolkit"];
 
 export const projects = [
@@ -16,7 +14,7 @@ export const projects = [
     techStack: [...stacks, "Js", "Firebase"],
     brand: FaOpencart,
     overView:
-      "Ecommerce web app organized with Enabled account creation, updates and deletions via Firebase, Increased product feed engagement 30% and reduced load time 10% with efficient infinite scroll and Implemented multi-category filtering, top-rated sorting, and price sorting using JavaScript.",
+      "A food delivery webiste with real time fethcing of user's location and restaurants based on that location.Integrated Firebase for authentication.Implemented veg-nonVeg filters in restuarants menu.Using Redux toolkit implemented the cart feature where user can add,update,delete and read the items selected",
     webUrl: "https://zomaggy.netlify.app/",
     gitHubCode: "https://github.com/armaan-yadav/Zomaggy",
   },
@@ -27,7 +25,7 @@ export const projects = [
     techStack: [...stacks, "Appwrite", "React Query", "Ts", "ShadCn"],
     brand: IoFastFoodSharp,
     overView:
-      "Food Gear project is online food ordering Platform.Increased user engagement by 15% through dynamic veg filter.Designed cart to enhance single-restaurant checkout flow.Implemented Memoization to achieve 50% reduction in API calls using Redux Toolkit.",
+      "Developed a Social media webiste where users can post photos with Appwrite as backend and authentication service.Using redux toolkit, implemented like and save functionality.Used React Query for better api handling and infinite scrolling. Search functionality where user's can search for posts,tags,captions and other users as well",
     webUrl: "https://snapgram-by-armaan.vercel.app/",
     gitHubCode: "https://github.com/armaan-yadav/Snapgram",
   },
@@ -38,7 +36,7 @@ export const projects = [
     techStack: ["React Js", "Context API", "Tailwind CSS"],
     brand: AiFillYoutube,
     overView:
-      "Proviede live Youtube Data Api.Implemented search functionality and infinite scroll feature in comments and videos.",
+      "Provided live Youtube Data Api.Implemented search functionality and infinite scroll feature in comments and videos.",
     webUrl: "https://yt-clone-react-weld.vercel.app/",
     gitHubCode: "https://github.com/armaan-yadav/yt-clone-react",
   },
