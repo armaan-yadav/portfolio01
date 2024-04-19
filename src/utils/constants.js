@@ -58,4 +58,4 @@ export const TECH_STACK_LOGOS = [
 ];
 
 export const RESUME_LINK =
-  "https://drive.google.com/file/d/1a6LWUzI_vUeCJbo_WDv9rCmSJ-CDHnAE/view?usp=sharing";
+  "https://drive.google.com/file/d/1zGoDQl3XmzqrP9k4H08JO9I9wmke5Dzf/view?usp=sharing";
