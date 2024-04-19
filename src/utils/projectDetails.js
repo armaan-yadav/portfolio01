@@ -1,12 +1,31 @@
 import snapgram from "../images/projects/snapgram.png";
 import yt from "../images/projects/yt.png";
 import zomaggy from "../images/projects/zomaggy.png";
+import codepencil from "../images/projects/codepencil.png";
 import { AiFillYoutube } from "react-icons/ai";
 import { IoFastFoodSharp } from "react-icons/io5";
+import { FaCode } from "react-icons/fa";
 import { FaOpencart } from "react-icons/fa";
 export const stacks = ["React", "Tailwind CSS", "Redux Toolkit"];
 
 export const projects = [
+  {
+    title: "CodePencil",
+    id: 4,
+    image: codepencil,  
+    techStack: [
+      ...stacks,
+      "Js",
+      "Firebase",
+      "Node Js",
+      "Daisy UI",
+      "Framer Motion",
+    ],
+    brand: FaCode,
+    overView: `Developed an online code editor where users can create profile , set avatar, practice their frontend skills and save them. Currently 15+ active users`,
+    webUrl: "https://codepencil-swart.vercel.app/",
+    gitHubCode: "https://github.com/armaan-yadav/codepencil",
+  },
   {
     title: "Zomaggy",
     id: 1,
@@ -24,14 +43,13 @@ export const projects = [
     image: snapgram,
     techStack: [...stacks, "Appwrite", "React Query", "Ts", "ShadCn"],
     brand: IoFastFoodSharp,
-    overView:
-      "Developed a Social media webiste where users can post photos with Appwrite as backend and authentication service.Using redux toolkit, implemented like and save functionality.Used React Query for better api handling and infinite scrolling. Search functionality where user's can search for posts,tags,captions and other users as well",
+    overView: `Developed a social media webapp where users can drag and drop photos and upload them with Appwrite as a backend service`,
     webUrl: "https://snapgram-by-armaan.vercel.app/",
     gitHubCode: "https://github.com/armaan-yadav/Snapgram",
   },
   {
     title: "YOUTUBE UI CLONE",
-    id: 4,
+    id: 3,
     image: yt,
     techStack: ["React Js", "Context API", "Tailwind CSS"],
     brand: AiFillYoutube,
